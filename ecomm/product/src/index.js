@@ -2,7 +2,7 @@ import faker from 'faker';
 
 let products = '';
 
-for (let i = 0; i < 3; i++) {
+for (let i = 0; i < 100; i++) {
   products += `
     <div class="product">
       <div class="product-image">
@@ -17,6 +17,6 @@ for (let i = 0; i < 3; i++) {
   `;
 }
 
-//document.querySelector('#products').innerHTML = products;
+document.querySelector('#dev-products').innerHTML = products;
 
-console.log(products);
+//console.log(products);
